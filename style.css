@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+
+}
+hr{
+    margin-top: 30px;
+    border-radius: 305px;
+
+}
+
+
+.sidebar{
+    background-color: #e4ba02;
+    width: 9rem;
+    height: 55rem;
+    font-family: 'Fira Sans', sans-serif;
+}
+.sidebar nav{
+    padding-top: 4rem;
+}
+.sidebar nav ul{
+    list-style: none;
+}
+.sidebar nav ul li{
+    padding: 2rem;
+}
+.sidebar nav ul a{
+    text-decoration: none;
+    color: rgb(252, 250, 250);
+    cursor: pointer;
+}
+
+
+.main{
+    background-color:rgb(254, 255, 255);
+    width: 89rem;
+}
+.container{
+    display: flex;
+    
+}
+
+.infocontainer{
+    background-color: rgb(169, 172, 173);
+    display: flex;
+    width:63rem;
+    margin: 4rem auto;
+    height: 20rem;
+    justify-content: space-around;
+}
+.contentinfo{
+    padding: 2rem;
+    
+    width:27rem;
+    ;
+
+    
+}
+.hello{
+    padding: 0rem;
+    font-size:6rem;
+    font-weight: 1000 ;
+}
+.name{
+    padding: 0rem;
+    font-size: 2rem;
+    font-weight: 900 ;
+}
+.buttons{
+   
+    margin-left: 26rem;
+    
+}
+.buttons button{
+    padding: 1rem;
+    border-radius: 250rem;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: blue;
+    color: rgb(249, 249, 253);
+}
+.divimage img{
+    height: 20rem;
+}
+.skillimage{
+    text-align: center;
+    margin-top: 13px;
+}
+.skillcontent{
+    padding: 50px;
+
+}
+.intimage{
+    height: 219px;
+    
+}
